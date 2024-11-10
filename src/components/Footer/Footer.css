@@ -1,0 +1,34 @@
+/* Footer.css */
+.footerContainer {
+    background-color: #ffcc99; /* Peach color */
+    color: #000; /* Black text color */
+    padding: 10px; /* Reduced padding to decrease height */
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); /* High box shadow */
+    border: 2px solid black; /* Black outline */
+    border-radius: 15px; /* Rounded corners */
+  }
+  
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .iconLink {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .iconLink:hover {
+    color: #000; /* Change icon color on hover */
+  }
+  
+  .footerText {
+    margin: 5px 0;
+    text-align: center;
+    margin-left: 35%; 
+  }
+  

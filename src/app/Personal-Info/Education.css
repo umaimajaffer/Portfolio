@@ -1,0 +1,43 @@
+/* General Styles */
+.education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.education-container h1, .education-container h2 {
+    font-size: 2.5rem;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Table Styles */
+.education-table, .courses-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.education-table th, .courses-table th, 
+.education-table td, .courses-table td {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.education-table th, .courses-table th {
+    background-color: peachpuff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 30%;
+    font-size: 1.2rem;
+}
+
+.education-table td, .courses-table td {
+    font-size: 1.1rem;
+}

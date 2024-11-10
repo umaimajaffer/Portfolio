@@ -1,0 +1,108 @@
+/* New CSS for Contact Page */
+.new-contact-container {
+  font-family: 'Times New Roman', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.new-contact-heading {
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.new-contact-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  width: 70%; /* Reduced width for a cleaner look */
+  margin-bottom: 30px;
+}
+
+.new-text-wrapper {
+  text-align: center; /* Center text horizontally */
+  margin-bottom: 20px;
+}
+
+.new-image-wrapper {
+  display: flex;
+  justify-content: center; /* Center image horizontally */
+  align-items: center; /* Center image vertically if needed */
+  margin-bottom: 30px; /* Add some space below the image */
+}
+
+.new-contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%; /* Reduced form width */
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.new-form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.new-btn-submit {
+  padding: 10px;
+  background-color: #FFDAB9; /* Peach color */
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* High shadow */
+  font-size: 1.1rem;
+  cursor: pointer;
+  width: 150px; /* Reduced button width */
+  margin: 0 auto; /* Center button horizontally */
+}
+
+.new-btn-submit:hover {
+  background-color: #FFC4A3; /* Darker peach */
+}
+
+.new-bottom-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.new-bottom-section p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.new-bottom-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.new-bottom-section li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.new-bottom-section a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.new-bottom-section a:hover {
+  text-decoration: underline;
+}
+
+.new-bottom-section svg {
+  margin-right: 8px; /* Space between icon and text */
+}

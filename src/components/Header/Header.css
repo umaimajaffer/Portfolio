@@ -1,0 +1,45 @@
+.header {
+  background-color: hsl(28, 100%, 86%);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  height: 80px; /* Increase navbar height */
+  display: flex;
+  justify-content: space-between; /* Adjust to separate profile and buttons */
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px; /* Add some padding to the left for profile */
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.header h1 {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 35px;
+}
+
+.profile {
+  font-size: 24px; /* Increase profile text size */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.headerbuttons {
+  list-style-type: none; /* Remove bullets from the list */
+  display: flex;
+  gap: 40px; /* Increase the gap between buttons */
+  padding: 10px;
+  font-size: 22px; /* Increase nav link size */
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.headerbuttons li {
+  color: black; /* Set the color of the nav links to black */
+  font-size: 22px; /* Increase individual link size */
+  text-decoration: none; /* Ensure no underline on links */
+}
+
+.headerbuttons li a {
+  text-decoration: none; /* Remove underline from link elements */
+}
+
