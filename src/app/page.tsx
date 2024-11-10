@@ -17,7 +17,8 @@ export default function Home() {
         <Image
             src="/images/img1.jpeg" // Update with your image path
             alt="Contact Icon"
-            
+            width={300}
+            height={300}
           />
       </div>
     </div>

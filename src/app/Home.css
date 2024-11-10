@@ -31,13 +31,15 @@
     
   }
   
-  image {
-    width: 23%;
-    height: 10%;
-    margin-left: 20px; 
+  .content img {
+    margin-left: 20px;
     border: 7px solid white;
     border-radius: 30px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  
+  }.content img {
+    margin-left: 20px;
+    border: 7px solid white;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
   
